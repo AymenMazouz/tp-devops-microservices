@@ -22,8 +22,8 @@ public class ProduitRequestDTO {
     public ProduitRequestDTO(String nom, String description, Double prix, Integer quantiteStock) {
         this.nom = nom;
         this.description = description;
-        this.prix = prix;
-        this.quantiteStock = quantiteStock;
+        this.prix = prix
+        this.quantiteStock = quantiteStock
     }
 
     public String getNom() { return nom; }
